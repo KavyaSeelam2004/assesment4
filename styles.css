@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styling for layout and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ff69b4; /* Dark pink background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px; /* Add padding to create space around the content */
+}
+
+/* Container styling for centering the app */
+.container {
+    background: #e6e6fa; /* Lavender background */
+    padding: 40px; /* Increased padding for more space */
+    border-radius: 20px; /* Slightly more rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 500px; /* Increased max width */
+    border: 3px solid #8a2be2; /* Medium lavender border */
+    color: #000000; /* Black text color */
+}
+
+/* Heading styling */
+h1 {
+    text-align: center;
+    margin-bottom: 30px; /* Increased margin for spacing */
+    color: #000000; /* Black text color */
+}
+
+/* Styling for input and button container */
+.input-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px; /* Increased margin for spacing */
+}
+
+/* Input field styling */
+input {
+    width: 70%; /* Adjusted width */
+    padding: 15px; /* Increased padding */
+    border: 2px solid #8a2be2; /* Medium lavender border */
+    border-radius: 5px;
+    background-color: #f4f0ff; /* Very light lavender background */
+    color: #000000; /* Black text color */
+}
+
+/* General button styling */
+button {
+    padding: 15px 25px; /* Increased padding */
+    border: none;
+    background-color: #dcd0ff; /* Light lavender background */
+    color: #000000; /* Black text color */
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #8a2be2; /* Medium lavender border */
+}
+
+/* Disabled button styling */
+button:disabled {
+    background-color: #e6e6fa; /* Lavender for disabled */
+    border: 2px solid #dcd0ff; /* Light lavender border for disabled */
+}
+
+/* Task list and task item styling */
+ul {
+    list-style-type: none;
+    padding: 0; /* Ensure no padding for ul */
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px; /* Increased padding */
+    border-bottom: 2px solid #8a2be2; /* Medium lavender border */
+    background-color: #f4f0ff; /* Very light lavender background */
+    color: #000000; /* Black text color */
+}
+
+/* Styling for completed tasks */
+li.completed {
+    text-decoration: line-through;
+    color: #757575; /* Gray for completed tasks */
+}
+
+/* Styling for filter buttons */
+.filter-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; /* Increased margin for spacing */
+}
+
+/* Styling for filter buttons */
+.filter-container button {
+    padding: 12px 20px; /* Increased padding */
+    border-radius: 5px;
+    background-color: #dcd0ff; /* Light lavender background */
+    color: #000000; /* Black text color */
+    border: 2px solid #8a2be2; /* Medium lavender border */
+    cursor: pointer;
+}
+
+/* Active filter button styling */
+.filter-container button.active {
+    background-color: #c1b3ff; /* Slightly darker lavender for active */
+}
